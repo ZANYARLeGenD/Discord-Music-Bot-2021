@@ -8,7 +8,6 @@ const { player } = require(".");
  * @param {String[]} args
  */
 module.exports = async (client, message, cmd, args) => {
-  console.log(`Commands Loaded....`);
   if (cmd === "ping") {
     message.reply(`Ping :- ${client.ws.ping}`);
   } else if (cmd === "play") {
